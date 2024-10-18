@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+:root{
+    --cor-texto:#624E88;
+    --cor-fundo:#D7C3F1;
+    --cor-secundaria: #CB80AB;
+    --cor-verde: #BDE8CA;
+    --font: "Afacad Flux", sans-serif;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--font);
+}
+
+header{
+    background-color: var(--cor-verde);
+    text-align:center;
+}
+
+h1{
+    font-size: 2rem;
+    color:var(--cor-texto);
+    font-weight: 700;
+}
